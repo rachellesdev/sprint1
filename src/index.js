@@ -11,8 +11,10 @@ function propCSS() {
         if (prop.toLowerCase() === 'sair') {
             console.log(arr)
             break;
+        }else{
+            arr.push(prop);
         }
-        arr.push(prop);
+        
     }
 
 }
