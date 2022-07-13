@@ -38,3 +38,11 @@ uma em cada linha.
 <img src="./src/assets/resultado.png"> 
 
 </div>
+
+<br /><p>Tecnologias utilizadas:</p>
+
+- Javascript
+- Node.js
+- NPM
+- Biblioteca: 'prompt-sync' ([NPM: prompt-sync](https://www.npmjs.com/package/prompt-sync))
+
