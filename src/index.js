@@ -9,8 +9,10 @@ function propCSS() {
         const prop = ps('Digite uma propriedade de CSS:')
 
         if (prop.toLowerCase() === 'sair') {
-            console.log(arr)
+            console.log(arr.sort())
             break;
+        }else if (prop.length <= 0){
+            console.log('O campo não pode ficar em branco.');
         }else{
             arr.push(prop);
         }
