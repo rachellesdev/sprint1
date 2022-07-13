@@ -1,10 +1,20 @@
 import prompt from 'prompt-sync'
 
-// testando biblioteca
+function propCSS() {
+    const ps = prompt()
+    const arr = []
 
-const ps = prompt()
+    while (true) {
 
-let name = ps('Digite seu nome: ')
+        const prop = ps('Digite uma propriedade de CSS:')
 
-console.log(`Olá ${name}`);
+        if (prop.toLowerCase() === 'sair') {
+            console.log(arr)
+            break;
+        }
+        arr.push(prop);
+    }
 
+}
+
+propCSS();
