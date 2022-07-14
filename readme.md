@@ -35,7 +35,7 @@ uma em cada linha.
 
 <div align="center">
 
-<img src="./src/assets/resultado.png" width = "200px"> 
+<img src="./src/assets/resultado.png" width = "400px"> 
 
 </div>
 
